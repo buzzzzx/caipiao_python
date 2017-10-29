@@ -41,7 +41,7 @@ class Caipiao:
         ball_str = ''
         for i in redball:
             ball_str = ball_str + str(i) + " "
-        ball_str = ball_str + '|' + str(blueball) + '\n'
+        ball_str = ball_str + '| ' + str(blueball) + '\n'
         self.text.insert(1.0, ball_str)
 
     def creatDaLeTou(self):
@@ -51,7 +51,7 @@ class Caipiao:
         ballstr = ''
         for i in beforeArea:
             ballstr = ballstr + str(i) + ' '
-        ballstr = ballstr + '|'
+        ballstr = ballstr + '| '
         for i in afterArea:
             ballstr = ballstr + str(i) + ' '
         ballstr = ballstr + '\n'
